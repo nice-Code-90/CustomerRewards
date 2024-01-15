@@ -37,7 +37,7 @@ codeunit 50100 "Customer Rewards Installation"
 
     procedure SetDefaultCustomerRewardsExtMgtCodeunit();
     var
-        CustomerRewardsMgtSetup: Record "Customer Rewards Mgt Setup";
+        CustomerRewardsMgtSetup: Record "Customer Rewards Mgt. Setup";
     begin
         CustomerRewardsMgtSetup.DeleteAll();
         CustomerRewardsMgtSetup.Init();
